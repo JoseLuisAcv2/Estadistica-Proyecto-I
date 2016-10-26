@@ -39,7 +39,7 @@ nacimientosAnualesEuropa <- as.numeric(unlist(subset(datosUnicef, Continente=="E
 nacimientosAnualesOceania <- as.numeric(unlist(subset(datosUnicef, Continente=="Oceania")["Nacimientos anuales (miles)"]))
 
 # Creación de histogramas por continente
-pdf("A2_Histograma7_NacimientosAnuales_Africa.pdf")
+jpeg("A2_Histograma7_NacimientosAnuales_Africa.jpeg")
 hist(nacimientosAnualesAfrica,
 	main="África",
 	xlab="Nacimientos anuales (miles)",
@@ -48,25 +48,25 @@ hist(nacimientosAnualesAfrica,
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma8_NacimientosAnuales_AmericaDelNorte.pdf")
+jpeg("A2_Histograma8_NacimientosAnuales_AmericaDelNorte.jpeg")
 hist(nacimientosAnualesAmericaDelNorte,
-	main="America del Norte",
+	main="América del Norte",
 	xlab="Nacimientos anuales (miles)",
 	ylab="Nro. países",
 	xlim=c(0,30000),
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma9_NacimientosAnuales_AmericaDelSur.pdf")
+jpeg("A2_Histograma9_NacimientosAnuales_AmericaDelSur.jpeg")
 hist(nacimientosAnualesAmericaDelSur,
-	main="America del Sur",
+	main="América del Sur",
 	xlab="Nacimientos anuales (miles)",
 	ylab="Nro. países",
 	xlim=c(0,30000),
 	ylim=c(0,40)
 )	
 
-pdf("A2_Histograma10_NacimientosAnuales_Asia.pdf")
+jpeg("A2_Histograma10_NacimientosAnuales_Asia.jpeg")
 hist(nacimientosAnualesAsia,
 	main="Asia",
 	xlab="Nacimientos anuales (miles)",
@@ -75,7 +75,7 @@ hist(nacimientosAnualesAsia,
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma11_NacimientosAnuales_Europa.pdf")
+jpeg("A2_Histograma11_NacimientosAnuales_Europa.jpeg")
 hist(nacimientosAnualesEuropa,
 	main="Europa",
 	xlab="Nacimientos anuales (miles)",
@@ -84,9 +84,9 @@ hist(nacimientosAnualesEuropa,
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma12_NacimientosAnuales_Oceania.pdf")
+jpeg("A2_Histograma12_NacimientosAnuales_Oceania.jpeg")
 hist(nacimientosAnualesOceania,
-	main="Oceania",
+	main="Oceanía",
 	xlab="Nacimientos anuales (miles)",
 	ylab="Nro. países",
 	xlim=c(0,30000),

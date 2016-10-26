@@ -39,7 +39,7 @@ esperanzaVidaEuropa <- as.numeric(unlist(subset(datosUnicef, Continente=="Europa
 esperanzaVidaOceania <- as.numeric(unlist(subset(datosUnicef, Continente=="Oceania")["Esperanza de vida al nacer (años)"]))
 
 # Creación de diagramas de caja por continente
-pdf("A2_Boxplot4_EsperanzaVida.pdf")
+jpeg("A2_Boxplot4_EsperanzaVida.jpeg")
 par(mar=c(9,5,5,5))
 boxplot(
 	esperanzaVidaAfrica,
@@ -52,9 +52,10 @@ boxplot(
 	main="Esperanza de vida al nacer (años)",
 	ylab="Esperanza de vida",
 	names=c("África",
-			"America del Norte",
-			"America del Sur",
+			"América del Norte",
+			"América del Sur",
 			"Asia",
 			"Europa",
-			"Oceania")
+			"Oceanía"
+	)
 )

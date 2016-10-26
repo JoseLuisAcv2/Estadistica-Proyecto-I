@@ -39,7 +39,7 @@ mortalidad5añosEuropa <- as.numeric(unlist(subset(datosUnicef, Continente=="Eur
 mortalidad5añosOceania <- as.numeric(unlist(subset(datosUnicef, Continente=="Oceania")["Tasa de mortalidad menores de 5 años"]))
 
 # Creación de diagramas de caja por continente
-pdf("A2_Boxplot1_Mortalidad5años.pdf")
+jpeg("A2_Boxplot1_Mortalidad5años.jpeg")
 par(mar=c(9,5,5,5))
 boxplot(
 	mortalidad5añosAfrica,
@@ -50,11 +50,12 @@ boxplot(
 	mortalidad5añosOceania,
 	las=2,
 	main="Tasa de mortalidad menores de 5 años",
-	ylab="Tasa mortalidad",
+	ylab="Tasa de mortalidad",
 	names=c("África",
-			"America del Norte",
-			"America del Sur",
+			"América del Norte",
+			"América del Sur",
 			"Asia",
 			"Europa",
-			"Oceania")
+			"Oceanía"
+	)
 )

@@ -27,7 +27,7 @@ mortalidad1añoDatos <- c("Tasa de mortalidad menores de 1 año",mortalidad1año
 # Poblacíón total (miles)
 poblacionTotal <- as.numeric(unlist(datosUnicef["Poblacion total (miles)"]))
 poblacionTotalDatos<-summary(poblacionTotal)
-poblacionTotalDatos <- c("Poblacion total (miles)",poblacionTotalDatos, round(sd(poblacionTotal), digits=2))
+poblacionTotalDatos <- c("Población total (miles)",poblacionTotalDatos, round(sd(poblacionTotal), digits=2))
 
 # Nacimientos anuales (miles)
 nacimientosAnuales <- as.numeric(unlist(datosUnicef["Nacimientos anuales (miles)"]))
@@ -37,7 +37,7 @@ nacimientosAnualesDatos <- c("Nacimientos anuales (miles)",nacimientosAnualesDat
 # INB per capita (dólares)
 INB <- as.numeric(unlist(datosUnicef["INB per capita (dolares)"]))
 INBdatos<-summary(INB)
-INBdatos <- c("INB per capita (dolares)",INBdatos, round(sd(INB), digits=2))
+INBdatos <- c("INB per cápita (dolares)",INBdatos, round(sd(INB), digits=2))
 
 # Esperanza de vida al nacer (años)
 esperanzaVida <- as.numeric(unlist(datosUnicef["Esperanza de vida al nacer (años)"]))
@@ -52,5 +52,5 @@ tabla <- matrix(datos, ncol=8, byrow=TRUE)
 colnames(tabla) <- c("Variable","Mínimo","1er cuartil","Mediana","Media","3er cuartil","Máximo","Desviación Estándar")
 tabla <- as.table(tabla)
 row.names(tabla)=NULL
-pdf("A1_Tabla1_AnalisisDescriptivo.pdf",height=3.5,width=12)
+jpeg("A1_Tabla1_AnalisisDescriptivo.jpeg",height=200,width=800)
 grid.table(tabla)

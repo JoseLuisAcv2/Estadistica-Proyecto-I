@@ -39,7 +39,7 @@ poblacionTotalEuropa <- as.numeric(unlist(subset(datosUnicef, Continente=="Europ
 poblacionTotalOceania <- as.numeric(unlist(subset(datosUnicef, Continente=="Oceania")["Poblacion total (miles)"]))
 
 # Creación de histogramas por continente
-pdf("A2_Histograma1_PoblacionTotal_Africa.pdf")
+jpeg("A2_Histograma1_PoblacionTotal_Africa.jpeg")
 hist(poblacionTotalAfrica,
 	main="África",
 	xlab="Población total (miles)",
@@ -48,25 +48,25 @@ hist(poblacionTotalAfrica,
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma2_PoblacionTotal_AmericaDelNorte.pdf")
+jpeg("A2_Histograma2_PoblacionTotal_AmericaDelNorte.jpeg")
 hist(poblacionTotalAmericaDelNorte,
-	main="America del Norte",
+	main="América del Norte",
 	xlab="Población total (miles)",
 	ylab="Nro. países",
 	xlim=c(0,1400000),
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma3_PoblacionTotal_AmericaDelSur.pdf")
+jpeg("A2_Histograma3_PoblacionTotal_AmericaDelSur.jpeg")
 hist(poblacionTotalAmericaDelSur,
-	main="America del Sur",
+	main="América del Sur",
 	xlab="Población total (miles)",
 	ylab="Nro. países",
 	xlim=c(0,1400000),
 	ylim=c(0,40)
 )	
 
-pdf("A2_Histograma4_PoblacionTotal_Asia.pdf")
+jpeg("A2_Histograma4_PoblacionTotal_Asia.jpeg")
 hist(poblacionTotalAsia,
 	main="Asia",
 	xlab="Población total (miles)",
@@ -75,7 +75,7 @@ hist(poblacionTotalAsia,
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma5_PoblacionTotal_Europa.pdf")
+jpeg("A2_Histograma5_PoblacionTotal_Europa.jpeg")
 hist(poblacionTotalEuropa,
 	main="Europa",
 	xlab="Población total (miles)",
@@ -84,9 +84,9 @@ hist(poblacionTotalEuropa,
 	ylim=c(0,40)
 )
 
-pdf("A2_Histograma6_PoblacionTotal_Oceania.pdf")
+jpeg("A2_Histograma6_PoblacionTotal_Oceania.jpeg")
 hist(poblacionTotalOceania,
-	main="Oceania",
+	main="Oceanía",
 	xlab="Población total (miles)",
 	ylab="Nro. países",
 	xlim=c(0,1400000),

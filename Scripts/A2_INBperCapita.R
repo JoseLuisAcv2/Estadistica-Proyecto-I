@@ -39,7 +39,7 @@ INB_Europa <- as.numeric(unlist(subset(datosUnicef, Continente=="Europa")["INB p
 INB_Oceania <- as.numeric(unlist(subset(datosUnicef, Continente=="Oceania")["INB per capita (dolares)"]))
 
 # Creación de diagramas de caja por continente
-pdf("A2_Boxplot3_INBperCapita.pdf")
+jpeg("A2_Boxplot3_INBperCapita.jpeg")
 par(mar=c(9,5,5,5))
 boxplot(
 	INB_Africa,
@@ -49,12 +49,13 @@ boxplot(
 	INB_Europa,
 	INB_Oceania,
 	las=2,
-	main="INB per capita (dólares)",
+	main="INB per cápita (dólares)",
 	ylab="INB",
 	names=c("África",
-			"America del Norte",
-			"America del Sur",
+			"América del Norte",
+			"América del Sur",
 			"Asia",
 			"Europa",
-			"Oceania")
+			"Oceanía"
+	)
 )
