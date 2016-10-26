@@ -31,7 +31,7 @@ poblacionAltoIngresoDatos<-summary(poblacionAltoIngreso)
 rango <- max(poblacionAltoIngreso) - min(poblacionAltoIngreso)
 poblacionAltoIngresoDatos <- c("Alto Ingreso",poblacionAltoIngresoDatos, round(sd(poblacionAltoIngreso), digits=2), rango)
 
-# Tabla de comparación entre INB de países de bajo ingreso y países de alto ingreso.
+# Tabla de comparación entre población de países de bajo ingreso y países de alto ingreso.
 datos <- c(poblacionBajoIngresoDatos, poblacionAltoIngresoDatos)
 tabla <- matrix(datos, ncol=9, byrow=TRUE)
 colnames(tabla) <- c("Tipo de INB","Mínimo","1er cuartil","Mediana","Media","3er cuartil","Máximo","Desviación Estándar","Rango")
