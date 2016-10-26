@@ -50,12 +50,6 @@ datos <- c(mortalidad5añosDatos, mortalidad1añoDatos, poblacionTotalDatos,
 tabla <- matrix(datos, ncol=8, byrow=TRUE)
 
 colnames(tabla) <- c("Variable","Mínimo","1er cuartil","Mediana","Media","3er cuartil","Máximo","Desviación Estándar")
-rownames(tabla) <- c("Tasa de mortalidad menores de 5 años",
-					 "Tasa de mortalidad menores de 1 año",
-					 "Poblacion total (miles)",
-					 "Nacimientos anuales (miles)",
-					 "INB per capita (dolares)",
-					 "Esperanza de vida al nacer (años)")
 tabla <- as.table(tabla)
 row.names(tabla)=NULL
 pdf("A1_Tabla1_AnalisisDescriptivo.pdf",height=3.5,width=12)
