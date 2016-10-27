@@ -1,0 +1,13 @@
+A5 Respuesta:
+
+	Se determinó un intervalo de confianza del 95% para la proporción de países con bajo ingreso en relación a la cantidad total de países y otro intervalo de confianza, igualmente del 95%, para la proporción de países con alto ingreso. Se obtuvieron los siguientes resultados:
+
+	Países de bajo ingreso
+	
+	De los datos suministrados por UNICEF 65 de los 162 países estudiados poseen ingreso anual menor a 1035$. El estudio estadístico de los datos determinó que la proporción muestral de países con bajo ingreso es 0.401. En base a la información obtenida de la muestra se obtuvo el intervalo de confianza del 95% [0.33, 0.48] para la proporción real.
+		
+	Países de alto ingreso
+
+	A partir de los datos suministrados por UNICEF 28 de los 162 países estudiados poseen ingreso anual mayor a 12616$ y se determinó que la proporción muestral de países con alto ingreso es 0.173 del total de países. En base a la información obtenida de la muestra se obtuvo el intervalo de confianza del 95% [0.11, 0.23] para la proporción real de países con alto ingreso.
+	
+	Se observó que, con 95% de confianza, entre 10% y 20% de los países clasifican como alto ingreso y entre 30% y casi 50% de los países clasifican como bajo ingreso. Por lo tanto, gran parte de los  países poseen bajo ingreso y sólo una pequeña parte posee alto ingreso. Más aún, la cantidad de países con bajo ingreso es aproximadamente el doble de la cantidad de países con alto ingreso. Se puede concluir que existe una marcada diferencia de ingresos a nivel mundial definida por un pequeño grupo de países recibiendo grandes ingresos y una gran parte de países recibiendo bajos ingresos.

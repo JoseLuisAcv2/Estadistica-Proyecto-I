@@ -1,0 +1,13 @@
+A4 Respuesta:
+
+	Se realizó un intervalo de confianza del 95% para la media del Ingreso Nacional Bruto en países de bajo ingreso y otro intervalo de confianza, igualmente del 95%, para la media del INB en países de alto ingreso. Los resultados obtenidos fueron los siguientes:
+
+	Países de bajo ingreso
+	
+	En esta categoría clasifican aquellos países cuyo Ingreso Nacional Bruto está por debajo de 1035 dólares anuales. De los datos suministrados por UNICEF 65 de los 162 países estudiados clasifican dentro de esta categoría. El estudio estadístico de dichos países determinó que la media muestral para el INB era de 448.62$ anuales con una desviación estándar muestral de 251.74$ en países de bajo ingreso. Con estos datos, y dado que el tamaño de la muestra era 65, se determinó el intervalo de confianza del 95% con una distribución normal de la media. Se obtuvo el intervalo [387.42, 509.81].
+	
+	Países de alto ingreso
+
+	En esta categoría clasifican aquellos países cuyo INB está por encima de 12616$ anuales. De los datos suministrados por UNICEF 28 de los 162 países estudiados se encuentran dentro de esta categoría y se determinó que la media muestral para el INB era de 26010$ anuales con desviación estándar muestral de 8403.72$. Debido a que el tamaño de la muestra era menor a 30 se utilizó la distribución t de Student para determinar el intervalo de confianza. Se obtuvo [22751.38, 29268.62].
+	
+	Se observó que casi la mitad de los países clasifican como bajo ingreso y sólo 28, menos de 1/5 del total, poseen alto ingreso. Más Aún, el pequeño grupo de países de alto ingreso posee un INB mucho mayor al de los países de bajo ingreso, aproximadamente 50 veces mayor, siendo esto muestra de la desequilibrada repartición de la riqueza a nivel mundial. Se puede concluir que la mayor parte de la población posee bajos ingresos y sólo es en un pequeño grupo de países en donde se encuentra la mayor concentración de riqueza.
